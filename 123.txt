@@ -1,0 +1,108 @@
+<button _ngcontent-cpk-c73="" mat-icon-button="" aria-label="Additional menu" class="mat-mdc-menu-trigger gmat-subtitle-1 megamenu-trigger mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base gmat-mdc-button" aria-haspopup="menu">
+  <span class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"> </span>
+  <gf-icon  size="24"  aria-hidden="true" style="width: 24px; height: 24px;">
+    <span _ngcontent-cpk-c42="" class="icon icon--currentColor">
+      <svg _ngcontent-cpk-c42="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ng-star-inserted"><path _ngcontent-cpk-c42="" d="M12 8a2 2 0 002-2 2 2 0 00-2-2 2 2 0 00-2 2c0 1.1.9 2 2 2zm0 2a2 2 0 00-2 2c0 1.1.9 2 2 2a2 2 0 002-2 2 2 0 00-2-2zm0 6a2 2 0 00-2 2c0 1.1.9 2 2 2a2 2 0 002-2 2 2 0 00-2-2z"></path></svg></span></gf-icon><span class="mat-mdc-focus-indicator"></span>
+      <span matripple="" class="mat-ripple mat-mdc-button-ripple"></span>
+  <span class="mat-mdc-button-touch-target"></span></button>
+
+  <gf-theme-toggle _ngcontent-cpk-c83="" class="gf-nav__button" _nghost-cpk-c82="">
+    <button _ngcontent-cpk-c82="" color="secondary--gray" mat-icon-button="" class="mat-mdc-tooltip-trigger theme-toggle mdc-icon-button mat-mdc-icon-button mat-secondary--gray mat-mdc-button-base gmat-mdc-button" aria-label="Switch to light theme">
+      <span class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple">
+      </span><gf-lottie _ngcontent-cpk-c82="" animation="dark-mode-to-light-mode" class="centered theme-toggle__icon lottie-icon ng-star-inserted" _nghost-cpk-c75="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+          <defs>
+            <clipPath id="__lottie_element_2"><rect width="24" height="24" x="0" y="0"></rect></clipPath></defs>
+            <g clip-path="url(#__lottie_element_2)">
+              <g transform="matrix(1,0,0,1,12,12)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(69,90,100)" fill-opacity="1" d=" M0,-4 C-2.2100000381469727,-4 -4,-2.2100000381469727 -4,0 C-4,2.2100000381469727 -2.2100000381469727,4 0,4 C2.2100000381469727,4 4,2.2100000381469727 4,0 C4,-2.2100000381469727 2.2100000381469727,-4 0,-4z"></path></g></g><g transform="matrix(1,0,0,1,12,12)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(69,90,100)" fill-opacity="1" d=" M0,6 C-3.309999942779541,6 -6,3.309999942779541 -6,0 C-6,-3.309999942779541 -3.309999942779541,-6 0,-6 C3.309999942779541,-6 6,-3.309999942779541 6,0 C6,3.309999942779541 3.309999942779541,6 0,6z M8,-3.309999942779541 C8,-3.309999942779541 8,-8 8,-8 C8,-8 3.309999942779541,-8 3.309999942779541,-8 C3.309999942779541,-8 0,-11.3100004196167 0,-11.3100004196167 C0,-11.3100004196167 -3.309999942779541,-8 -3.309999942779541,-8 C-3.309999942779541,-8 -8,-8 -8,-8 C-8,-8 -8,-3.309999942779541 -8,-3.309999942779541 C-8,-3.309999942779541 -11.3100004196167,0 -11.3100004196167,0 C-11.3100004196167,0 -8,3.309999942779541 -8,3.309999942779541 C-8,3.309999942779541 -8,8 -8,8 C-8,8 -3.309999942779541,8 -3.309999942779541,8 C-3.309999942779541,8 0,11.3100004196167 0,11.3100004196167 C0,11.3100004196167 3.309999942779541,8 3.309999942779541,8 C3.309999942779541,8 8,8 8,8 C8,8 8,3.309999942779541 8,3.309999942779541 C8,3.309999942779541 11.3100004196167,0 11.3100004196167,0 C11.3100004196167,0 8,-3.309999942779541 8,-3.309999942779541z"></path></g></g></g></svg></gf-lottie><!----><!---->
+              <span class="mat-mdc-focus-indicator"></span>
+              <span matripple="" class="mat-ripple mat-mdc-button-ripple"></span>
+    <span class="mat-mdc-button-touch-target"></span></button><!----></gf-theme-toggle>
+  <!-- <button _ngcontent-cpk-c82="" color="secondary--gray" mat-icon-button="" class="mat-mdc-tooltip-trigger theme-toggle mdc-icon-button mat-mdc-icon-button mat-secondary--gray mat-mdc-button-base gmat-mdc-button" aria-label="Switch to light theme"><span class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"></span><gf-lottie _ngcontent-cpk-c82="" animation="dark-mode-to-light-mode" class="centered theme-toggle__icon lottie-icon ng-star-inserted" _nghost-cpk-c75=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_2"><rect width="24" height="24" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_2)"><g transform="matrix(1,0,0,1,12,12)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(69,90,100)" fill-opacity="1" d=" M0,-4 C-2.2100000381469727,-4 -4,-2.2100000381469727 -4,0 C-4,2.2100000381469727 -2.2100000381469727,4 0,4 C2.2100000381469727,4 4,2.2100000381469727 4,0 C4,-2.2100000381469727 2.2100000381469727,-4 0,-4z"></path></g></g><g transform="matrix(1,0,0,1,12,12)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path fill="rgb(69,90,100)" fill-opacity="1" d=" M0,6 C-3.309999942779541,6 -6,3.309999942779541 -6,0 C-6,-3.309999942779541 -3.309999942779541,-6 0,-6 C3.309999942779541,-6 6,-3.309999942779541 6,0 C6,3.309999942779541 3.309999942779541,6 0,6z M8,-3.309999942779541 C8,-3.309999942779541 8,-8 8,-8 C8,-8 3.309999942779541,-8 3.309999942779541,-8 C3.309999942779541,-8 0,-11.3100004196167 0,-11.3100004196167 C0,-11.3100004196167 -3.309999942779541,-8 -3.309999942779541,-8 C-3.309999942779541,-8 -8,-8 -8,-8 C-8,-8 -8,-3.309999942779541 -8,-3.309999942779541 C-8,-3.309999942779541 -11.3100004196167,0 -11.3100004196167,0 C-11.3100004196167,0 -8,3.309999942779541 -8,3.309999942779541 C-8,3.309999942779541 -8,8 -8,8 C-8,8 -3.309999942779541,8 -3.309999942779541,8 C-3.309999942779541,8 0,11.3100004196167 0,11.3100004196167 C0,11.3100004196167 3.309999942779541,8 3.309999942779541,8 C3.309999942779541,8 8,8 8,8 C8,8 8,3.309999942779541 8,3.309999942779541 C8,3.309999942779541 11.3100004196167,0 11.3100004196167,0 C11.3100004196167,0 8,-3.309999942779541 8,-3.309999942779541z"></path></g></g></g></svg></gf-lottie><!----><!----><span class="mat-mdc-focus-indicator"></span>
+    <!-- <span matripple="" class="mat-ripple mat-mdc-button-ripple"></span> -->
+    <!--    <span class="mat-mdc-button-touch-target"></span></button> --> 
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/* .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+} */
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<!-- <div id="mySidenav" class="sidenav"> -->
+  <div class="sidenav">
+<button><mat-icon>person</mat-icon></button>
+<ul>
+  <li><a href="#" ><i class="fas fa-tv"></i>dashboard</a></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+
+<button mat-icon-button onclick="openNav()" style="font-size:30px;cursor:pointer"> <mat-icon >person</mat-icon></button>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  
+</script>
+   
+</body>
+</html> 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PIzzaDeliveryProject.iml" filepath="$PROJECT_DIR$/.idea/PIzzaDeliveryProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PizzaWorld/PizzaService/PizzaService.iml" filepath="$PROJECT_DIR$/PizzaWorld/PizzaService/PizzaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PizzaWorld/PizzaWorld.iml" filepath="$PROJECT_DIR$/PizzaWorld/PizzaWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PizzaWorld/PizzaWorld-ApiGateWay/PizzaWorld-ApiGateWay.iml" filepath="$PROJECT_DIR$/PizzaWorld/PizzaWorld-ApiGateWay/PizzaWorld-ApiGateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PizzaWorld/PizzaWorld-Eureka/PizzaWorld-Eureka.iml" filepath="$PROJECT_DIR$/PizzaWorld/PizzaWorld-Eureka/PizzaWorld-Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PizzaWorld/UserAuthentication/userAuthentication.iml" filepath="$PROJECT_DIR$/PizzaWorld/UserAuthentication/userAuthentication.iml" />
+    </modules>
+  </component>
+</project>

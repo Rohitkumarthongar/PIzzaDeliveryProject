@@ -1,0 +1,62 @@
+<main>
+    <td>
+      <form (ngSubmit)="loginForm()" [formGroup]="LoginForm"  id="form">
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" id="email"  placeholder="Enter Email" formControlName="userEmailId" >
+          <div *ngIf="userEmailId?.invalid && (userEmailId?.dirty || userEmailId?.touched)" class="alert alert-Danger")>
+            <div *ngIf="userEmailId?.errors?.['required']">
+              Email Is Required 
+            </div>
+          </div>
+        </mat-form-field>
+      <br><br>
+        <mat-form-field appearance="outline">
+          <mat-label >PassWords</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'"  id="inputWidth" formControlName="userPassword" matInput type="text" placeholder="Enter Password Here">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+         
+          
+        </mat-form-field>
+<br>
+       
+    </form>
+
+    <button id="submitBt" mat-flat-button color="primary" type="submit" [disabled]="LoginForm.invalid " (click)="loginForm()">Login</button>
+    <br>
+    <br>
+    <a href="/SignUp" style="margin-left: 580px;"> If You Are Not a registered User pls SignUp first</a>
+  </main>
+
+  <footer>
+    <div> <div id="info">
+      <img id="logo" src="./assets/pizzaLogo.jpg" alt="Logo Not Found">
+      <P id="quate">
+        WHEN ALL ELSE FAILS,ORDER PIZZA
+      </P>
+      <div id="aContainer">
+        <div><a href="https://pizzabutlers.com/disclaimer" title="Disclaimer">Disclaimer</a></div>
+        <div><a href="https://www.pizzahut.co.in/privacy/" title="Privacy Policy">Privacy Policy</a></div>
+        <div><a href="https://homemadepizzapro.com/pizza-faqs/" title="Faq">Faq</a></div>
+        <div><a href="https://www.pizzahut.co.in/terms/" title="Term And Condition">Term And Condition</a></div>
+        <div><a href="https://www.pizzahut.co.in/landing/?id=feedback-form" title="FeedBack">FeedBack</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="download">
+    <label for="DownLoad App">Download App</label>
+   <br><br>
+    <div >
+      <button mat-feb-button id="button-container" >
+        <a href="https://www.microsoft.com/en-in/p/dominos-pizza-online/9wzdncrfhw4r?activetab=pivot:overviewtab" mat-fab-button  mat-fab-button title="AppStore"> 
+          <mat-icon title="Google Store">shop</mat-icon></a>
+     </button>
+    </div>
+  </div>
+  <br><br><br><br>
+  <div id="footer2" >
+   <p style="margin-left: 650px;">All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</p>
+ </div>
+ </footer> 

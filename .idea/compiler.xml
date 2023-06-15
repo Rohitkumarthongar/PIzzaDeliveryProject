@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="userAuthentication" />
+        <module name="PizzaService" />
+        <module name="PizzaWorld-ApiGateWay" />
+        <module name="PizzaWorld-Eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PizzaService" target="17" />
+      <module name="PizzaWorld" target="17" />
+      <module name="PizzaWorld-ApiGateWay" target="17" />
+      <module name="PizzaWorld-Eureka" target="17" />
+      <module name="userAuthentication" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PizzaService" options="-parameters" />
+      <module name="PizzaWorld-ApiGateWay" options="-parameters" />
+      <module name="PizzaWorld-Eureka" options="-parameters" />
+      <module name="userAuthentication" options="-parameters" />
+    </option>
+  </component>
+</project>

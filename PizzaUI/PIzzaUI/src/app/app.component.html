@@ -1,0 +1,26 @@
+
+
+ <header>
+  <div class="toolbar" role="banner" >
+    <img
+      width="50"
+      alt="Angular Logo"
+      src="../assets/pizzaLogo.jpg"
+    />
+    <span style="color:rgb(148, 11, 11);font-size: xx-large;" >Pizza King</span>
+      <div class="spacer"></div>
+      <button mat-icon-button  aria-label="Home icon">
+        <mat-icon routerLink="/dashBoard">home</mat-icon>
+      </button>
+      <button mat-icon-button  aria-label="Sign Up">
+        <mat-icon routerLink="/signUp" >person</mat-icon>
+      </button>
+      <button mat-icon-button  aria-label="Sign In">
+        <mat-icon routerLink="/login">login</mat-icon>
+      </button>
+      <button mat-icon-button id="shopping">
+        <mat-icon routerLink="/cart">shopping_cart</mat-icon>
+      </button>
+  </div>
+</header>
+<router-outlet></router-outlet>

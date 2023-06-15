@@ -1,0 +1,102 @@
+<main> 
+    <form id="form" [formGroup]="SignUpForm" (ngSubmit)="signUpForm()">
+      <mat-form-field appearance="outline">
+          <mat-label>First name</mat-label>
+          <input matInput type="text" id="firstName"  placeholder="Enter Name Here" formControlName="userFirstName">
+          <div *ngIf="userFirstName?.invalid && (userFirstName?.dirty || userFirstName?.touched)" class="alert alert-Danger")>
+            <div *ngIf="userFirstName?.errors?.['required']">
+              First name Is Required 
+            </div>
+            <div *ngIf="userFirstName?.errors?.['minlength']" class="aletr alert-danger">
+              First Name Should be Length more then 3 characters </div>
+              <div *ngIf="userFirstName?.errors?.['maxlength']" class="aletr alert-danger">
+                First Name Should be Length more then 3 characters </div>
+            </div>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline">
+          <mat-label>Last Name</mat-label>
+          <input matInput type="test" id="LastName" formControlName="userLastName" placeholder="Enter Last  Name" >
+          <div *ngIf="userLastName?.invalid && (userLastName?.dirty || userLastName?.touched)" class="alert alert-Danger")>
+            <div *ngIf="userLastName?.errors?.['required']">
+              Last name Is Required 
+            </div>
+            <div *ngIf="userLastName?.errors?.['minlength']" class="aletr alert-danger">
+              Last Name Should be Length more then 3 characters </div>
+              <div *ngIf="userLastName?.errors?.['maxlength']" class="aletr alert-danger">
+                Last Name Should be Length more then 3 characters </div>
+            </div>
+        </mat-form-field>
+     
+  
+
+
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" id="email"  placeholder="Enter Email" formControlName="userEmailId" >
+          <div *ngIf="userEmailId?.invalid && (userEmailId?.dirty || userEmailId?.touched)" class="alert alert-Danger")>
+            <div *ngIf="userEmailId?.errors?.['required']">
+              Email Is Required 
+            </div>
+          </div>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label >PassWords</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'"  id="inputWidth" formControlName="userPassword">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Contact No</mat-label>
+          <input matInput type="number" id="userContNo"  placeholder="Enter Email" formControlName="userContNo" >
+          <div *ngIf="userContNo?.invalid && (userEmailId?.dirty || userEmailId?.touched)" class="alert alert-Danger")>
+            <div *ngIf="userEmailId?.errors?.['required']">
+              Email Is Required 
+            </div>
+          </div>
+        </mat-form-field>
+        <div>      
+            <button mat-flat-button color="primary" type="submit" [disabled]="SignUpForm.invalid" (click)="registrationForm()" (click)="signUpForm()">SignUp</button>
+        </div>
+
+        <!--  -->
+        <br>
+        <a href="/login"> If You Are Already A registered User</a>
+      
+
+      </form>
+    </main>
+
+     <footer>
+        <div> <div id="info">
+          <img id="logo" src="./assets/pizzaLogo.jpg" alt="Logo Not Found">
+          <P id="quate">
+            WHEN ALL ELSE FAILS,ORDER PIZZA
+          </P>
+          <div id="aContainer">
+            <div><a href="https://pizzabutlers.com/disclaimer" title="Disclaimer">Disclaimer</a></div>
+            <div><a href="https://www.pizzahut.co.in/privacy/" title="Privacy Policy">Privacy Policy</a></div>
+            <div><a href="https://homemadepizzapro.com/pizza-faqs/" title="Faq">Faq</a></div>
+            <div><a href="https://www.pizzahut.co.in/terms/" title="Term And Condition">Term And Condition</a></div>
+            <div><a href="https://www.pizzahut.co.in/landing/?id=feedback-form" title="FeedBack">FeedBack</a></div>
+          </div>
+        </div>
+      </div>
+      <div id="download">
+        <label for="DownLoad App">Download App</label>
+       <br><br>
+        <div >
+          <button mat-feb-button id="button-container" >
+            <a href="https://www.microsoft.com/en-in/p/dominos-pizza-online/9wzdncrfhw4r?activetab=pivot:overviewtab" mat-fab-button  mat-fab-button title="AppStore"> 
+              <mat-icon title="Google Store">shop</mat-icon></a>
+         </button>
+        </div>
+      </div>
+      <br><br><br><br>
+      <div id="footer2" >
+       <p style="margin-left: 650px;">All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</p>
+     </div>
+     </footer> 

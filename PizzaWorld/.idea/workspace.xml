@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7fca21f-150a-4217-bc3d-40fbbb80b9d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/cart/cart.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/cart/cart.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/cart/cart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/cart/cart.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../PizzaUI/PIzzaUI/src/app/components/services/cart.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaService/src/main/java/com/pizzaworld/PizzaService/domain/PizzaDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/PizzaService/src/main/java/com/pizzaworld/PizzaService/domain/PizzaDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PizzaWorld-ApiGateWay/src/main/java/com/pizzaworld/PizzaWorldApiGateWay/PizzaWorldApiGateWayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PizzaWorld-ApiGateWay/src/main/java/com/pizzaworld/PizzaWorldApiGateWay/PizzaWorldApiGateWayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthentication/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthentication/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2F7YxoS7QlV9vSCDyU51DkP6iD9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;N:/PIzzaDeliveryProject/PizzaWorld&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MiniProject\MiniProject\PizzaWorld\PizzaService\src\main\java\com\pizzaworld\PizzaService\exception" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pizzaworld.PizzaWorldbilling.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PizzaServiceApplication">
+    <configuration name="PizzaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pizzaworld.PizzaService.PizzaServiceApplication" />
+      <module name="PizzaService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pizzaworld.PizzaService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaWorldApiGateWayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pizzaworld.PizzaWorldApiGateWay.PizzaWorldApiGateWayApplication" />
+      <module name="PizzaWorld-ApiGateWay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pizzaworld.PizzaWorldApiGateWay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaWorldEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pizzaworld.PizzaWorldEureka.PizzaWorldEurekaApplication" />
+      <module name="PizzaWorld-Eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pizzaworld.PizzaWorldEureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAuthenticationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pizzaworld.userAuthentication.UserAuthenticationApplication" />
+      <module name="userAuthentication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pizzaworld.userAuthentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PizzaServiceApplication" />
+        <item itemvalue="Application.UserAuthenticationApplication" />
+        <item itemvalue="Application.PizzaWorldApiGateWayApplication" />
+        <item itemvalue="Application.PizzaWorldEurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7fca21f-150a-4217-bc3d-40fbbb80b9d3" name="Changes" comment="" />
+      <created>1663844847647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663844847647</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

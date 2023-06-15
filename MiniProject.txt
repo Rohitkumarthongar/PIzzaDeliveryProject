@@ -1,0 +1,12 @@
+   "userEmailId":"Rohitkumar@gmail.com",
+    "userFirstName":"Rohit",
+    "userLastName":"Saini",
+    "userPassword":"Rohit@123",
+    "userContNo":"8233189764"
+
+    
+     "landMark":"near Hanuman Sagar",
+     "city":"Jaipur",
+     "state":"RAJASTHAN",
+     "pinCode":"303712"
+

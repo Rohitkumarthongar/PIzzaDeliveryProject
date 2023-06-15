@@ -1,0 +1,17 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/PizzaService
+
+  application:
+    name: User-Pizza-Service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_SERVER_IP:localhost}:${EUREKA_SERVER_PORT:8761}/eureka
+    fetchRegistry: true
+    registerWithEureka: true
+server:
+  port: 8002

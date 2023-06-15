@@ -1,0 +1,84 @@
+<div id="miniRaw">
+  <mat-toolbar-row >
+    <mat-chip-list>
+      <mat-chip>Cheese</mat-chip>
+      <mat-chip>Margareta</mat-chip>
+      <mat-chip>Onion</mat-chip>
+      <mat-chip>GArlic</mat-chip>
+      <mat-chip>Regular</mat-chip>
+      <mat-chip>Coke</mat-chip>
+      <mat-chip>Cheese</mat-chip>
+      <mat-chip>Margareta</mat-chip>
+      <mat-chip>Onion</mat-chip>
+      <mat-chip>GArlic</mat-chip>
+      <mat-chip>Regular</mat-chip>
+      <mat-chip>Coke</mat-chip>
+      <mat-chip>Cheese</mat-chip>
+      <mat-chip>Margareta</mat-chip>
+      <mat-chip>Onion</mat-chip>
+      <mat-chip>GArlic</mat-chip>
+      <mat-chip>Regular</mat-chip>
+      <mat-chip>Coke</mat-chip>
+      <mat-chip>Coke</mat-chip>
+      <mat-chip>Cheese</mat-chip>
+      <mat-chip>Margareta</mat-chip>
+      <mat-chip>Onion</mat-chip>
+      <mat-chip>GArlic</mat-chip>
+      <mat-chip>Regular</mat-chip>
+      <mat-chip>Coke</mat-chip>
+    </mat-chip-list>
+  </mat-toolbar-row>
+</div>
+
+<div><div id="chart" *ngFor="let item of PizzaStoreCollection">
+  <div class="container">
+    <div class="row">
+        <ng-container >
+          <div class="card col-md-4">
+            <img src={{item.url}} alt="" id="image">
+            <h5></h5>
+            <p id="P1">{{item. Pizza_Title}}</p>
+            <p><strong>Size : {{item.Pizza_Size}}</strong></p>
+            <p id="p2"><Strong>Price :  {{item.Pizza_Price}}</Strong></p>
+            <button mat-icon-button (click)="addTocart(item)" id="add" >
+              <mat-icon>
+                add_shopping_cart
+                </mat-icon>
+            </button>
+          </div>
+        </ng-container>
+      </div>
+      </div>
+     </div>
+    
+  </div>
+
+                                                                                               
+
+<footer>
+    <div> <div id="info">
+      <img id="logo" src="./assets/pizzaLogo.jpg" alt="Logo Not Found">
+      <P id="quate">
+        WHEN ALL ELSE FAILS,ORDER PIZZA
+      </P>
+      <div id="aContainer">
+        <div><a href="https://pizzabutlers.com/disclaimer" title="Disclaimer">Disclaimer</a></div>
+        <div><a href="https://www.pizzahut.co.in/privacy/" title="Privacy Policy">Privacy Policy</a></div>
+        <div><a href="https://homemadepizzapro.com/pizza-faqs/" title="Faq">Faq</a></div>
+        <div><a href="https://www.pizzahut.co.in/terms/" title="Term And Condition">Term And Condition</a></div>
+        <div><a href="https://www.pizzahut.co.in/landing/?id=feedback-form" title="FeedBack">FeedBack</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="download">
+    <label for="DownLoad App">Download App</label>
+   <br><br>
+    <div >
+      <a href="https://www.microsoft.com/en-in/p/dominos-pizza-online/9wzdncrfhw4r?activetab=pivot:overviewtab" mat-fab-button  mat-fab-button title="AppStore"> 
+        <mat-icon title="Google Store">shop</mat-icon></a>
+    </div>
+  </div>
+  </footer>
+  <div id="last" >
+    <p style="margin-left: 650px;">All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</p>
+  </div>
